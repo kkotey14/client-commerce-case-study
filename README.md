@@ -1,12 +1,12 @@
-# Client Commerce Case Study
+# AmJes Couture Client Commerce Case Study
 
 Public case study for a client-facing e-commerce platform built and deployed for **AmJes Couture**, a medical wear brand.
 
-## Project Summary
+## Overview
 
-This project involved designing and shipping a production-ready commerce experience for a real business. The platform combines a polished storefront with secure checkout, customer accounts, order tracking, and an admin dashboard for daily operations.
+This project was delivered as a real business platform rather than a demo storefront. The goal was to create a polished, production-ready e-commerce experience that supports product discovery, secure checkout, customer accounts, order tracking, and day-to-day admin operations.
 
-Because this was developed for a client, the production source code remains private. This repository exists as a professional case study that documents the scope, engineering decisions, and final product experience.
+The live implementation was built for a client, so the production codebase remains private. This repository presents the project as a professional case study, with screenshots and a high-level breakdown of the system I designed and shipped.
 
 ## My Role
 
@@ -20,11 +20,12 @@ I built and deployed the platform end to end as the developer responsible for:
 - Admin tooling
 - Deployment and production configuration
 
-## What I Built
+## Solution Delivered
 
 ### Customer Experience
 
-- Responsive storefront for browsing medical scrubs
+- Responsive storefront designed to work cleanly across mobile, tablet, and desktop devices
+- Product browsing experience tailored for medical scrubs and coordinated sets
 - Interactive set builder for selecting tops and bottoms
 - Authentication with email/password and Google sign-in
 - Three-step checkout flow
@@ -59,7 +60,7 @@ I built and deployed the platform end to end as the developer responsible for:
 - Admin route and action protection based on authenticated identity
 - Server-authoritative pricing to prevent checkout tampering
 - Tracking-number generation for customer order lookup
-- Real operational workflows for product edits, payments, and order updates
+- Real operational workflows for product edits, payments, order updates, and customer communication
 
 ## Screenshots
 
@@ -77,15 +78,17 @@ I built and deployed the platform end to end as the developer responsible for:
 
 ![Checkout Review Step](assets/screenshots/checkout-review.png)
 
+![Payment Flow](assets/screenshots/payment.png)
+
 ### Operations
 
 ![Admin Dashboard](assets/screenshots/admin-dashboard.png)
 
 ![Orders and Tracking](assets/screenshots/orders-tracking.png)
 
-## Project Outcome
+## Outcome
 
-The finished platform supports real business operations, not just a static storefront. It gives the client a live commerce workflow covering product management, secure payments, customer order visibility, and operational follow-up from a single system.
+The finished platform supports real business operations, not just static presentation. It gives the client a working commerce system for catalog management, secure payments, order visibility, tracking, and post-purchase follow-up from a single product.
 
 ## Note
 
